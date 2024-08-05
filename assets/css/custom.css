@@ -1,0 +1,17 @@
+/*
+Custom Css
+*/
+.category-item img {
+    transition: transform 0.3s ease;
+    max-width: 100%; /* Memastikan gambar tidak melebihi lebar kolom */
+}
+.category-item img:hover {
+    transform: scale(1.05);
+    
+}
+.category-item h5, .category-item h2 {
+    font-weight: bold;
+}
+.category-item {
+    text-align: center; /* Mengatur teks agar berada di tengah */
+}
